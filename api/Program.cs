@@ -29,7 +29,10 @@ var newSummaries = new[]
 {
     "Brrrrr", "Yikes", "Frozen", "Hot", "Ouch", "StopIt"
 };
-
+var newSummaries = new[]
+{
+    "Brrrrr", "Yikes", "Frozen", "Hot", "Ouch", "StopIt"
+};
 app.MapGet("/sensitive", (string? password) =>
 {
     return "Access denied!";
